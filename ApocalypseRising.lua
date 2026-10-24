@@ -37,15 +37,16 @@ local Window = Fluent:CreateWindow({
 })
 
 local Tabs = {
-  Visuals = Window:AddTab({ Title = "Visuals", Icon = "" });
+  Visuals = Window:AddTab({ Title = "Visuals", Icon = "" });Porno = Window:AddTab({ Title = "Porno", Icon = "" });
 }
 
 Window:SelectTab(1)
 
 
-
-
-
+Tabs.Porno:addParagraph({
+	Title = "L gooner",
+	Content = "Wojtek suck my dih"
+})
 
 local function CreateEspIsrael(char, displayName)
 	local root = char:WaitForChild("HumanoidRootPart", 5)
